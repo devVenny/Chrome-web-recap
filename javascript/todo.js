@@ -1,5 +1,4 @@
 'use strict'
-
 const todoForm = document.querySelector('.todo-form');
 const todoInput = todoForm.querySelector('input');
 const todoList = document.querySelector('.list');
@@ -72,3 +71,4 @@ function init() {
     todoForm.addEventListener('submit', handleSubmit);
 }
 init();
+

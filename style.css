@@ -1,3 +1,31 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
 .hidden {
   display: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  height: 100%;
+  margin-left: 50px;
+}
+
+/* background */
+
+.bgImg {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+  width: 100%;
+  height: 100%;
+  background-position: cover/center;
 }
